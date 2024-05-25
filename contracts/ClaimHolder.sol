@@ -87,7 +87,7 @@ contract ClaimHolder is KeyHolder, ERC735 {
         return (
             claims[_claimId].claimType,
             claims[_claimId].scheme,
-            claims[_claimId].issuer,
+             claims[_claimId].issuer,
             claims[_claimId].signature,
             claims[_claimId].data,
             claims[_claimId].uri
